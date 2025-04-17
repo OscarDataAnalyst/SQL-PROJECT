@@ -1,3 +1,8 @@
+-- Joined all tables using primary and foreign keys to enable efficient data export 
+--to visualization tools like Excel and Tableau. This structure also allows for 
+-- easier access to the complete dataset, simplifying data cleaning and the detection 
+-- of errors and duplicates.
+
 create view sqlproj as
 SELECT
 ord.order_id,
